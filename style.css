@@ -251,6 +251,10 @@ nav {
   padding: 17px 22px;
 }
 
+.pag-btn:hover {
+  background-color: olivedrab;
+}
+
 .btn-container {
   display: flex;
   justify-content: center;
@@ -281,7 +285,41 @@ nav {
   border-radius: 16px;
 
   background-color: white;
+  position: relative;
 }
+.new-btn {
+position: absolute;
+left: 40px;
+top: 315px;
+color: rgb(255, 255, 255);
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-transform: capitalize;
+border: none;
+padding: 10px 15px;
+border-radius: 47.93px;
+background: rgb(60, 216, 232);
+}
+
+.new-btn-two {
+  position: absolute;
+ color: white;
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 47.93px;
+  background: rgb(149, 178, 38);
+  top: 190px;
+  left: 30px;
+  }
+
+
 
 .story-one-full > img {
   border-radius: 16px 16px 0px 0px;
@@ -320,7 +358,7 @@ nav {
 }
 .story-full {
   border-radius: 16px;
-
+  position: relative;
   background: rgb(255, 255, 255);
 }
 
@@ -402,6 +440,14 @@ footer {
   margin-top: 30px;
 }
 
+#read-btn-two{
+  color: pink;
+}
+#read-btn-three{
+  color: purple;
+}
+
+
 @media screen and (max-width: 600px) {
   body {
     max-width: 100%;
@@ -457,20 +503,27 @@ footer {
   .story-full > img {
     width: 100vw;
   }
-  .story-full {
-    width: 100vw;
-  }
+
   .story-one-full {
-    width: 100vw;
+   display: none;
   }
 
-  .story-one-full > img {
-    width: 100vw;
-  }
-
+ 
   footer {
     flex-direction: column;
     padding: 30px;
   }
 
+  #card-one,  #card-two, #card-three{
+    width: 90vw;
+    margin: 0 auto;
+   
+  }
+
+  .new-btn{
+    top: 200px
+  }
+.btn-container{
+  display: none;
+}
 }
