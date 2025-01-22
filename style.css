@@ -95,6 +95,10 @@ nav {
   letter-spacing: 0%;
 }
 
+#hello {
+  display: none;
+}
+
 .banner {
   display: flex;
   justify-content: space-between;
@@ -181,7 +185,7 @@ nav {
 .stan-btn {
   text-align: center;
   background-color: white;
-  color: #F0AA00;
+  color: #f0aa00;
   font-family: Quicksand;
   font-size: 15.09px;
   font-weight: 700;
@@ -244,7 +248,7 @@ nav {
   border-radius: 30px;
   background: rgb(254, 163, 1);
   border: none;
-  padding: 10px 15px;
+  padding: 17px 22px;
 }
 
 .btn-container {
@@ -292,6 +296,7 @@ nav {
   text-align: left;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding-left: 10px;
 }
 
 .story-one-desc {
@@ -301,6 +306,7 @@ nav {
   line-height: 28.76px;
   letter-spacing: 0%;
   text-align: left;
+  padding-left: 10px;
 }
 .story-title-two {
   color: rgb(0, 0, 0);
@@ -322,6 +328,11 @@ nav {
   width: 100%;
   border-radius: 16px 16px 0px 0px;
 }
+.story-btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
 
 footer {
   background: rgb(1, 172, 253);
@@ -338,11 +349,11 @@ footer {
 }
 .footer-logo > h1 {
   color: rgb(255, 255, 255);
-font-size: 2em;
-font-weight: 700;
-line-height: 39.51px;
-letter-spacing: 0%;
-text-align: left;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 39.51px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 .footer-logo > img {
@@ -351,34 +362,34 @@ text-align: left;
 
 .logo-desc {
   color: rgb(255, 255, 255);
-font-size: 1.2em;
-font-weight: 400;
-line-height: 25px;
-letter-spacing: 0%;
-text-align: left;
-margin-top: 35px;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 35px;
 }
 
 .footer-list > h1 {
   color: rgb(255, 255, 255);
-font-size: 1.5em;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 .footer-list > ul > li {
   list-style: none;
   color: rgb(255, 255, 255);
-font-size:  1.2em;
-font-weight: 500;
-line-height: 25px;
-letter-spacing: 0%;
-text-align: left;
-margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 20px;
 }
 
-.footer-three  > h1{
+.footer-three > h1 {
   color: rgb(255, 255, 255);
   font-size: 26px;
   font-weight: 700;
@@ -404,6 +415,10 @@ margin-top: 20px;
 
   .nav-btn {
     display: none;
+  }
+
+  #hello {
+    display: block;
   }
 
   .banner {
@@ -442,19 +457,20 @@ margin-top: 20px;
   .story-full > img {
     width: 100vw;
   }
-.story-full {
-  width: 100vw;
-}
-.story-one-full, .banner-img {
-  width: 100vw;
-}
+  .story-full {
+    width: 100vw;
+  }
+  .story-one-full {
+    width: 100vw;
+  }
 
-.story-one-full > img {
-  width: 100vw;
-}
+  .story-one-full > img {
+    width: 100vw;
+  }
 
   footer {
-   flex-direction: column;
+    flex-direction: column;
     padding: 30px;
   }
+
 }
